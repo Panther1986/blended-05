@@ -120,6 +120,7 @@ const urlPosition = `https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lon
 
     if (baseCurrency) {
       return thunkAPI.rejectWithValue('We already have base currency!');
+
     }
 ```
 
